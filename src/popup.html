@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="center">
+        <h3>Video Speed Control</h3>
+
+        <div id="video-not-found-div">Video does not exist on this page.</div>
+        <div id="video-found-div" style="display: none;">
+            <form id="videoSpeedForm">
+                <img id="decreaseButton" class="btn unselectable" src="/images/minus.png"></img><!--
+                --><input id="video-speed" type="number" step="0.01" class="center"/><!--
+                --><img id="increaseButton" class="btn unselectable" src="/images/plus.png"></img>
+            </form>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
